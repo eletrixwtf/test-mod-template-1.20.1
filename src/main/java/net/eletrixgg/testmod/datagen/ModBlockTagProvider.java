@@ -52,5 +52,12 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
     getOrCreateTagBuilder(TagKey.of(RegistryKeys.BLOCK, new Identifier("fabric", "needs_tool_level_4")))//bc mc dont got block tags for netherite this checks the registry and then identifys in the fabric folder in the datapack the needs tool level 4 json which is the netherite one basically
             .add(ModBlocks.END_STONE_RUBY_ORE);
+
+        getOrCreateTagBuilder(BlockTags.FENCES)
+                .add(ModBlocks.RUBY_FENCE); //making the fences have the same block tags as normal fences
+        getOrCreateTagBuilder(BlockTags.FENCE_GATES) //same as above but for fence gates
+                .add(ModBlocks.RUBY_FENCE_GATE);
+        getOrCreateTagBuilder(BlockTags.WALLS)
+                .add(ModBlocks.RUBY_WALL);
     }
 }

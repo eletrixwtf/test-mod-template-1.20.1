@@ -16,5 +16,15 @@
   "block.testmod.sound_block": "Sound Block",
   "item.testmod.tomato": "Tomato",
   "item.testmod.fine_coal": "Fine Coal",
-  "tooltip.testmod.metal_detector.tooltip": "Finds underground ores."
+  "tooltip.testmod.metal_detector.tooltip": "Finds underground ores.",
+
+  "block.testmod.ruby_stairs": "Ruby Stairs",
+  "block.testmod.ruby_slab": "Ruby Slab",
+  "block.testmod.ruby_button": "Ruby Button",
+  "block.testmod.ruby_pressure_plate": "Ruby Pressure Plate",
+  "block.testmod.ruby_fence": "Ruby Fence",
+  "block.testmod.ruby_fence_gate": "Ruby Fence Gate",
+  "block.testmod.ruby_wall": "Ruby Wall",
+  "block.testmod.ruby_door": "Ruby Door",
+  "block.testmod.ruby_trapdoor": "Ruby Trapdoor"
 }
