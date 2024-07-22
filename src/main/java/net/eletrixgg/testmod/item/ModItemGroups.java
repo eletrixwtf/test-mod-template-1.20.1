@@ -34,6 +34,15 @@ public class ModItemGroups {
                         //METAL DETECTOR ITEM
                         entries.add(ModItems.METAL_DETECTOR);
 
+                        //SOUND BLOCK
+                        entries.add(ModBlocks.SOUND_BLOCK);
+
+                        //FOODS
+                        entries.add(ModItems.TOMATO);
+
+                        //FUELS
+                        entries.add(ModItems.FINE_COAL);
+
                     }).build());
 
 
