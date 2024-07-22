@@ -1,7 +1,10 @@
-// 1.20.1	2024-07-22T23:41:58.9708707	Test Mod/Tags for minecraft:block
+// 1.20.1	2024-07-23T00:30:00.8159455	Test Mod/Tags for minecraft:block
 e5e1bc8daa3ff3ce4a21562ed4e08c8ed9b9590c data\minecraft\tags\blocks\mineable\pickaxe.json
+dbce6b1a037980014a9e58eb3118e15ad12160c7 data\minecraft\tags\blocks\walls.json
 2e7911975c369c89f30e470e4c083d74439eef08 data\minecraft\tags\blocks\needs_diamond_tool.json
 2f33da77671538bbc4d8c1fde9bc290f3d741c9e data\minecraft\tags\blocks\needs_iron_tool.json
+551082b6ccea4964a6fd91a60cd47737ae89d161 data\minecraft\tags\blocks\fence_gates.json
 af328ea8abc4c090677926cdbddbfa8231c96629 data\minecraft\tags\blocks\needs_stone_tool.json
 1050c7e7d25fd68a690d40201582cfeb5eecc51d data\testmod\tags\blocks\metal_detector_detectable_blocks.json
 219a9b2dcbc66a456ef6e31e79c0384c8b160c7f data\fabric\tags\blocks\needs_tool_level_4.json
+8e22bc5fb2501acd01366ccffbb16456c481c260 data\minecraft\tags\blocks\fences.json

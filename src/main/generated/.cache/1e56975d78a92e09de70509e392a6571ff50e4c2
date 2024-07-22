@@ -1,9 +1,9 @@
-// 1.20.1	2024-07-22T23:41:58.9758709	Test Mod/Recipes
+// 1.20.1	2024-07-23T00:30:00.8199446	Test Mod/Recipes
 5d8579eaeea5b81dd8d6a38ad531a4e3e46a8270 data\testmod\advancements\recipes\decorations\ruby_block.json
 02469b90397252bb8ab971b358001c36de748776 data\testmod\advancements\recipes\misc\ruby_from_smelting_end_stone_ruby_ore.json
+c8f7305b63b411da03dbe48cd2523755c1e3fe42 data\testmod\recipes\ruby_from_smelting_raw_ruby.json
 395103634328dc324b613e53c19b7ccddc99a21a data\testmod\advancements\recipes\misc\ruby_from_smelting_deepslate_ruby_ore.json
 65c6c1152cd81658b2e33d291be72d6da641f3ed data\testmod\recipes\ruby_from_smelting_nether_ruby_ore.json
-c8f7305b63b411da03dbe48cd2523755c1e3fe42 data\testmod\recipes\ruby_from_smelting_raw_ruby.json
 0a43a6d8c2213e85250db509a6167fc6e13cea31 data\testmod\recipes\ruby_block.json
 b9c2f59d1cb08e2fc897ecc70f347bccef0c8efb data\testmod\recipes\ruby_from_smelting_deepslate_ruby_ore.json
 f4f4c8055be959bfeda4aca0144215beb173eadd data\testmod\recipes\ruby.json
