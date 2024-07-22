@@ -38,7 +38,7 @@ offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModIt
                 .pattern("SRS")
                 .pattern("SSS")
                 .input('S', Items.STONE) //the s above in the pattern is stone
-                .input('S', ModItems.RUBY) //the r above in the pattern is ruby
+                .input('R', ModItems.RUBY) //the r above in the pattern is ruby
                 .criterion(hasItem(Items.STONE), conditionsFromItem(Items.STONE)) //if the player has stone in inventory then unlock the recipe
                 .criterion(hasItem(ModItems.RUBY), conditionsFromItem(ModItems.RUBY)) //if the player has ruby in inventory unlock recipe
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.RAW_RUBY))); // i dont know

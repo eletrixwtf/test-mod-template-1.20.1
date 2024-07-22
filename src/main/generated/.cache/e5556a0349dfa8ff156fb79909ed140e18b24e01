@@ -1,0 +1,8 @@
+// 1.20.1	2024-07-22T23:41:58.979872	Test Mod/Block Loot Tables
+c024803ce5ff3e16866f513a91c848a932c2208d data\testmod\loot_tables\blocks\end_stone_ruby_ore.json
+a0c6854f53aff245aaa7f2d611f40b29fe34321c data\testmod\loot_tables\blocks\deepslate_ruby_ore.json
+e9e8b2860b7bc4ab12e850be6f7fd21c5bbb8d5a data\testmod\loot_tables\blocks\sound_block.json
+6d6cfc7945cc669753b8839b21b4f02c820222e6 data\testmod\loot_tables\blocks\ruby_ore.json
+032dd66e468cfb439a8ce863f36a881d3ce98c93 data\testmod\loot_tables\blocks\nether_ruby_ore.json
+e055ec7c779e4bd409253c07c135982afd182863 data\testmod\loot_tables\blocks\raw_ruby_block.json
+f128d56f975f77b844a1224e40caa3255ee70df7 data\testmod\loot_tables\blocks\ruby_block.json
