@@ -16,5 +16,5 @@
   "block.testmod.sound_block": "Sound Block",
   "item.testmod.tomato": "Tomato",
   "item.testmod.fine_coal": "Fine Coal",
-  "tooltip.testmod.metal_detector.tooltip:": "Finds underground ores."
+  "tooltip.testmod.metal_detector.tooltip": "Finds underground ores."
 }
