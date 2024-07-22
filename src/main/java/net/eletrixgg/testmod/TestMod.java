@@ -1,5 +1,8 @@
 package net.eletrixgg.testmod;
 
+import net.eletrixgg.testmod.block.ModBlocks;
+import net.eletrixgg.testmod.item.ModItems;
+import net.eletrixgg.testmod.item.ModItemGroups;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -16,5 +19,8 @@ public class TestMod implements ModInitializer {
 		// Proceed with mild caution.
 
 		LOGGER.info("TestMod by eletrixgg has initiliazed. Running version 0.1-1.20.1-ALPHA.");
+		ModItemGroups.registerItemGroups();
+		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
