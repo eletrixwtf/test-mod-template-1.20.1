@@ -1,4 +1,4 @@
-// 1.20.1	2024-07-23T00:30:00.8199446	Test Mod/Recipes
+// 1.20.1	2024-07-23T00:48:09.256879	Test Mod/Recipes
 5d8579eaeea5b81dd8d6a38ad531a4e3e46a8270 data\testmod\advancements\recipes\decorations\ruby_block.json
 02469b90397252bb8ab971b358001c36de748776 data\testmod\advancements\recipes\misc\ruby_from_smelting_end_stone_ruby_ore.json
 c8f7305b63b411da03dbe48cd2523755c1e3fe42 data\testmod\recipes\ruby_from_smelting_raw_ruby.json
@@ -12,8 +12,8 @@ ee1023da1236ef9329f05c1a4080a79d58c54f08 data\testmod\advancements\recipes\misc\
 0c56d3c445710f5b4e3ea8511ae28005b2e788ce data\testmod\recipes\ruby_from_smelting_end_stone_ruby_ore.json
 60c5607cb4f6187340ee389c3639bf65d6ec90fd data\testmod\recipes\ruby_from_smelting_ruby_ore.json
 bdf4f7170d11f36f2c6049f813b6d68700972512 data\testmod\advancements\recipes\misc\raw_ruby.json
-979c29ba9a3cee93b357ee6ca03abbd92529935b data\testmod\advancements\recipes\misc\ruby_from_blasting_ruby_ore.json
 ea2725aad890efeb7799b9d36f0aa8d95339355b data\testmod\advancements\recipes\misc\ruby_from_blasting_nether_ruby_ore.json
+979c29ba9a3cee93b357ee6ca03abbd92529935b data\testmod\advancements\recipes\misc\ruby_from_blasting_ruby_ore.json
 47db5193b79accfdf0a0bb1ea2e27f7000f73ec3 data\testmod\advancements\recipes\misc\ruby_from_blasting_deepslate_ruby_ore.json
 ad7ca91818549b385381a971cf49d1a580d44c95 data\testmod\recipes\ruby_from_blasting_end_stone_ruby_ore.json
 c9f695a0d1cbfc40b04bf0f725a0cf982ff3edd1 data\testmod\advancements\recipes\building_blocks\ruby.json

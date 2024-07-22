@@ -51,10 +51,10 @@ public class ModBlocks {
             new WallBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
 
     public static final Block RUBY_DOOR = registerBlock("ruby_door",
-            new DoorBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK), BlockSetType.IRON)); //block set type is iron meaning it has behevior and sound of iron door so it wont open without a button and will make iron door sound (it make sense as theyre both minerals i think)
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque(), BlockSetType.IRON)); //block set type is iron meaning it has behevior and sound of iron door so it wont open without a button and will make iron door sound (it make sense as theyre both minerals i think) and calling non opaque so whole door isnt xray model
 
     public static final Block RUBY_TRAPDOOR = registerBlock("ruby_trapdoor",
-            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK), BlockSetType.IRON)); //again block set type is iron bc they both minerals and as stated above share same behavior and sounds as iron trapdoor
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque(), BlockSetType.IRON)); //again block set type is iron bc they both minerals and as stated above share same behavior and sounds as iron trapdoor and also calling non opaque so whole trapdoor isnt transparent
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block); //telling the game to register block item
