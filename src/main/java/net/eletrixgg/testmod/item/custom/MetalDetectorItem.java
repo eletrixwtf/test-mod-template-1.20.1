@@ -1,5 +1,6 @@
 package net.eletrixgg.testmod.item.custom;
 
+import net.eletrixgg.testmod.util.ModTags;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;
@@ -53,7 +54,7 @@ public class MetalDetectorItem extends Item {
     }
 
     private boolean isValuableBlock(BlockState state) {
-        return state.isOf(Blocks.IRON_ORE) || state.isOf(Blocks.DIAMOND_ORE); // checks the ores  (like if the block state is iron ore or diamond ore)
+        return state.isIn(ModTags.Blocks.METAL_DETECTOR_DETECTABLE_BLOCKS); // checks the metal_detector_detectable_blocks.json (resources/data/testmod/tags/blocks) ores
     }
 
     @Override
