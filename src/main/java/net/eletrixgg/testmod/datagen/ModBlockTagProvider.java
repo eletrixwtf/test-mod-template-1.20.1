@@ -19,7 +19,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
     }
 
     @Override
-    protected void configure(RegistryWrapper.WrapperLookup arg) {
+    protected void configure(RegistryWrapper.WrapperLookup arg) { //THIS IS THE LIST OF DETECTABLE BLOCKS FOR THE METAL DETECTOR
     getOrCreateTagBuilder(ModTags.Blocks.METAL_DETECTOR_DETECTABLE_BLOCKS)
             .add(ModBlocks.RUBY_ORE)
             .forceAddTag(BlockTags.GOLD_ORES)
@@ -31,7 +31,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
             .forceAddTag(BlockTags.COPPER_ORES)
             .forceAddTag(BlockTags.REDSTONE_ORES);
 
-    getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
+    getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE) //MINEABLE LIST OF BLOCKS (IF A BLOCK ISNT HERE THATS ADDED THEN IT WONT BE MINEABLE AND WONT DROP NOTHING)
             .add(ModBlocks.RAW_RUBY_BLOCK)
             .add(ModBlocks.RUBY_ORE)
             .add(ModBlocks.RUBY_BLOCK)
@@ -39,7 +39,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
             .add(ModBlocks.DEEPSLATE_RUBY_ORE)
             .add(ModBlocks.END_STONE_RUBY_ORE)
             .add(ModBlocks.SOUND_BLOCK);
-
+//needs tools self explanatory
     getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL)
             .add(ModBlocks.RUBY_BLOCK);
 

@@ -33,14 +33,14 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.NETHER_RUBY_ORE, copperLikeOreDrops(ModBlocks.NETHER_RUBY_ORE, ModItems.RAW_RUBY));
         addDrop(ModBlocks.END_STONE_RUBY_ORE, copperLikeOreDrops(ModBlocks.END_STONE_RUBY_ORE, ModItems.RAW_RUBY));
     }
-
+// this is the loot table for the ore (uses copper ore) and the ore can drop from 2 to 5 raw rubies every time
     public LootTable.Builder copperLikeOreDrops(Block drop, Item item) {
         return BlockLootTableGenerator.dropsWithSilkTouch(drop, (LootPoolEntry.Builder) this.applyExplosionDecay(drop,
                 ((LeafEntry.Builder)
                         ItemEntry.builder(item)
                                 .apply(SetCountLootFunction
                                         .builder(UniformLootNumberProvider
-                                                .create(2.0f, 5.0f))))
-                        .apply(ApplyBonusLootFunction.oreDrops(Enchantments.FORTUNE))));
+                                                .create(2.0f, 5.0f)))) //number of ores to be dropped between 2 and 5
+                        .apply(ApplyBonusLootFunction.oreDrops(Enchantments.FORTUNE)))); // <-- fortune thing which adds more loot for fortune enchant
     }
 }

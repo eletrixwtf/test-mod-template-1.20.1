@@ -17,7 +17,7 @@ import java.util.List;
 import java.util.function.Consumer;
 
 public class ModRecipeProvider extends FabricRecipeProvider {
-    private static final List<ItemConvertible> RUBY_SMELTABLES = List.of(ModItems.RAW_RUBY,
+    private static final List<ItemConvertible> RUBY_SMELTABLES = List.of(ModItems.RAW_RUBY, //defines list kind of like defining idk
             ModBlocks.RUBY_ORE, ModBlocks.DEEPSLATE_RUBY_ORE, ModBlocks.NETHER_RUBY_ORE, ModBlocks.END_STONE_RUBY_ORE); //literally just smeltable list
     public ModRecipeProvider(FabricDataOutput output) {
         super(output);
