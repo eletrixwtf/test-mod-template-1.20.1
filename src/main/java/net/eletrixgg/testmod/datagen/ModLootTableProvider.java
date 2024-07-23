@@ -56,3 +56,4 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
                         .apply(ApplyBonusLootFunction.oreDrops(Enchantments.FORTUNE))));
     }
 }
+//IMPORTANT TO NOTE: YOU NEEDS TO ALWAYS RUN DATA GENERATOR AFTER ADDING ITEMS SO THE JSONS GENERATE

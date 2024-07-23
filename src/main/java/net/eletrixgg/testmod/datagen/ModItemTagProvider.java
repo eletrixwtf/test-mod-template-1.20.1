@@ -16,3 +16,4 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
 
     }
 }
+//IMPORTANT TO NOTE: YOU NEEDS TO ALWAYS RUN DATA GENERATOR AFTER ADDING ITEMS SO THE JSONS GENERATE

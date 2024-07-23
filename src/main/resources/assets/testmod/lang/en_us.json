@@ -26,5 +26,14 @@
   "block.testmod.ruby_fence_gate": "Ruby Fence Gate",
   "block.testmod.ruby_wall": "Ruby Wall",
   "block.testmod.ruby_door": "Ruby Door",
-  "block.testmod.ruby_trapdoor": "Ruby Trapdoor"
+  "block.testmod.ruby_trapdoor": "Ruby Trapdoor",
+
+  "item.testmod.ruby_staff": "Ruby Staff",
+
+
+  "item.testmod.ruby_pickaxe": "Ruby Pickaxe",
+  "item.testmod.ruby_axe": "Ruby Axe",
+  "item.testmod.ruby_shovel": "Ruby Shovel",
+  "item.testmod.ruby_sword": "Ruby Sword",
+  "item.testmod.ruby_hoe": "Ruby Hoe"
 }

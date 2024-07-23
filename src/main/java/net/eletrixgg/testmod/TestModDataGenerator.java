@@ -16,3 +16,4 @@ public class TestModDataGenerator implements DataGeneratorEntrypoint {
 		pack.addProvider(ModRecipeProvider::new); // adds a provider of tags as the mod recipe prov
 	}
 }
+//IMPORTANT TO NOTE: YOU NEEDS TO ALWAYS RUN DATA GENERATOR AFTER ADDING ITEMS SO THE JSONS GENERATE

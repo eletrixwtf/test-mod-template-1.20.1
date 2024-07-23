@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "testmod:ruby_block"
+    "testmod:ruby_block",
+    "testmod:sound_block"
   ]
 }

@@ -1,5 +1,6 @@
 package net.eletrixgg.testmod.datagen;
 
+import net.eletrixgg.testmod.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.eletrixgg.testmod.block.ModBlocks;
@@ -42,7 +43,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
         //needs tools self explanatory
         getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL)
-                .add(ModBlocks.RUBY_BLOCK);
+                .add(ModBlocks.RUBY_BLOCK)
+                .add(ModBlocks.SOUND_BLOCK);
 
         getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.RAW_RUBY_BLOCK)
@@ -54,6 +56,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(TagKey.of(RegistryKeys.BLOCK, new Identifier("fabric", "needs_tool_level_4"))) //bc mc dont got block tags for netherite this checks the registry and then identifys in the fabric folder in the datapack the needs tool level 4 json which is the netherite one basically
                 .add(ModBlocks.END_STONE_RUBY_ORE);
 
+// if adding blocks to be only mineable by ruby pickaxe then do above code and then change needs tool level 4 to 5 and then put the block u want
+
         getOrCreateTagBuilder(BlockTags.FENCES) //making the fences have the same block tags as normal fences
                 .add(ModBlocks.RUBY_FENCE); //same as above but for fence gates
         getOrCreateTagBuilder(BlockTags.FENCE_GATES)
@@ -62,3 +66,5 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.RUBY_WALL);
     }
 }
+
+//IMPORTANT TO NOTE: YOU NEEDS TO ALWAYS RUN DATA GENERATOR AFTER ADDING ITEMS SO THE JSONS GENERATE
