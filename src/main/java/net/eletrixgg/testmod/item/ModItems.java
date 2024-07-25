@@ -33,7 +33,7 @@ public class ModItems {
     public static final Item RUBY_SHOVEL = registerItem("ruby_shovel",
             new ShovelItem(ModToolMaterial.RUBY, 0, 0f, new FabricItemSettings()));
     public static final Item RUBY_SWORD = registerItem("ruby_sword",
-            new SwordItem(ModToolMaterial.RUBY, ModConfigs.RUBYSWORD_DAMAGE, 5f, new FabricItemSettings()));
+            new SwordItem(ModToolMaterial.RUBY, ModConfigs.RUBYSWORD_DAMAGE, ModConfigs.RUBYSWORD_ATTACKDMG, new FabricItemSettings()));
     public static final Item RUBY_HOE = registerItem("ruby_hoe",
             new HoeItem(ModToolMaterial.RUBY, 0, 0f, new FabricItemSettings()));
 
