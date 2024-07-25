@@ -1,6 +1,7 @@
 package net.eletrixgg.testmod.item;
 
 import net.eletrixgg.testmod.TestMod;
+import net.eletrixgg.testmod.config.ModConfigs;
 import net.eletrixgg.testmod.item.custom.MetalDetectorItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
@@ -16,7 +17,7 @@ public class ModItems {
     public static final Item RAW_RUBY = registerItem("raw_ruby", new Item(new FabricItemSettings()));
 
     public static final Item METAL_DETECTOR = registerItem("metal_detector",
-            new MetalDetectorItem(new FabricItemSettings().maxDamage(64))); //max damage 64
+            new MetalDetectorItem(new FabricItemSettings().maxDamage(ModConfigs.METALDETMAXDURA))); //max damage is in the config
 
     public static final Item TOMATO = registerItem("tomato", new Item(new FabricItemSettings().food(ModFoodComponents.TOMATO)));
     public static final Item FINE_COAL = registerItem("fine_coal", new Item(new FabricItemSettings()));
@@ -32,7 +33,7 @@ public class ModItems {
     public static final Item RUBY_SHOVEL = registerItem("ruby_shovel",
             new ShovelItem(ModToolMaterial.RUBY, 0, 0f, new FabricItemSettings()));
     public static final Item RUBY_SWORD = registerItem("ruby_sword",
-            new SwordItem(ModToolMaterial.RUBY, 7, 5f, new FabricItemSettings()));
+            new SwordItem(ModToolMaterial.RUBY, ModConfigs.RUBYSWORD_DAMAGE, 5f, new FabricItemSettings()));
     public static final Item RUBY_HOE = registerItem("ruby_hoe",
             new HoeItem(ModToolMaterial.RUBY, 0, 0f, new FabricItemSettings()));
 

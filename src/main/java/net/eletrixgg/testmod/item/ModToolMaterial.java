@@ -7,6 +7,7 @@ package net.eletrixgg.testmod.item;
 
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
+import net.eletrixgg.testmod.config.ModConfigs;
 
 import java.util.function.Supplier;
 

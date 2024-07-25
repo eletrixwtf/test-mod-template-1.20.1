@@ -1,6 +1,7 @@
 package net.eletrixgg.testmod;
 
 import net.eletrixgg.testmod.block.ModBlocks;
+import net.eletrixgg.testmod.config.ModConfigs;
 import net.eletrixgg.testmod.item.ModItems;
 import net.eletrixgg.testmod.item.ModItemGroups;
 import net.fabricmc.api.ModInitializer;
@@ -22,6 +23,7 @@ public class TestMod implements ModInitializer {
 
 		LOGGER.info("TestMod by eletrixgg has started sucessfully. Running version: " + VERSION);
 		LOGGER.info("This mod is still in its Alpha State, please report any bugs to eletrixgg on Discord!");
+		ModConfigs.registerConfigs(); // Register the configs first (MAKE SURE TO DO FIRST)
 		ModItemGroups.registerItemGroups(); //Register the creative tabs (or item groups)
 		ModItems.registerModItems(); // register the items
 		ModBlocks.registerModBlocks(); //register blocks
