@@ -35,5 +35,10 @@
   "item.testmod.ruby_axe": "Ruby Axe",
   "item.testmod.ruby_shovel": "Ruby Shovel",
   "item.testmod.ruby_sword": "Ruby Sword",
-  "item.testmod.ruby_hoe": "Ruby Hoe"
+  "item.testmod.ruby_hoe": "Ruby Hoe",
+
+  "item.testmod.ruby_helmet": "Ruby Helmet",
+  "item.testmod.ruby_chestplate": "Ruby Chestplate",
+  "item.testmod.ruby_leggings": "Ruby Leggings",
+  "item.testmod.ruby_boots": "Ruby Boots"
 }

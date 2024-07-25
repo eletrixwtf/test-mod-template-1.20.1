@@ -14,7 +14,7 @@ public enum ModToolMaterial implements ToolMaterial { // if you want to check ou
 
     RUBY(5, 3022, 15f, 3.5f, 26, //the first value is mining lvl, second item dura, 3rd mining speed, 4th attackdamage, and 5th enchantability
                  () -> Ingredient.ofItems(ModItems.RUBY)); // the values above are significantly higher than netherite btw
-// IF YOU WANT TO ADD ANOTHER MATERIAL THEN YOU JUST HAVE TO COPY AND PASTE THE 2 ABOVE VALUES DONT MAKE ANOTHER WHOLE CLASS AND CHANGE THE DOT COLON TO JUST A COLON
+// IF YOU WANT TO ADD ANOTHER MATERIAL THEN YOU JUST HAVE TO COPY AND PASTE THE 2 ABOVE LINES DONT MAKE ANOTHER WHOLE CLASS AND CHANGE THE DOT COLON TO JUST A COLON
     private final int miningLevel;
     private final int itemDurability;
     private final float miningSpeed;
