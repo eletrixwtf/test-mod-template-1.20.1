@@ -3,6 +3,7 @@ package net.eletrixgg.testmod.item;
 import net.eletrixgg.testmod.TestMod;
 import net.eletrixgg.testmod.config.ModConfigs;
 import net.eletrixgg.testmod.item.custom.MetalDetectorItem;
+import net.eletrixgg.testmod.item.custom.ModArmorItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
@@ -39,7 +40,7 @@ public class ModItems {
 
     //ARMOR SECTION
     public static final Item RUBY_HELMET = registerItem("ruby_helmet",
-            new ArmorItem(ModArmorMaterials.RUBY, ArmorItem.Type.HELMET, new FabricItemSettings()));
+            new ModArmorItem(ModArmorMaterials.RUBY, ArmorItem.Type.HELMET, new FabricItemSettings())); //this is a mod armor item and not a normal armoritem because if we make all mod armor items then every tick u wearing it it checks right so if u only have one it good like it dosent waste resources and stuff but keeo like this for the mod armor effect
     public static final Item RUBY_CHESTPLATE = registerItem("ruby_chestplate",
             new ArmorItem(ModArmorMaterials.RUBY, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
     public static final Item RUBY_LEGGINGS = registerItem("ruby_leggings",

@@ -40,17 +40,18 @@ public class ModArmorItem extends ArmorItem {
             ArmorMaterial mapArmorMaterial = entry.getKey();
             StatusEffectInstance mapStatusEffect = entry.getValue(); //its gonna get the armor material and its effect
 
-            if(hasCorrectArmorOn(mapArmorMaterial, player)) { //then also checks if it has the correct armor on
-                addStatusEffectForMaterial(player, mapArmorMaterial, mapStatusEffect);
+            if(hasCorrectArmorOn(mapArmorMaterial, player)) { //then also checks if the player has the correct armor on
+                addStatusEffectForMaterial(player, mapArmorMaterial, mapStatusEffect); //add the status effect
             }
         }
     }
 
     private void addStatusEffectForMaterial(PlayerEntity player, ArmorMaterial mapArmorMaterial, StatusEffectInstance mapStatusEffect) {
+        //the lines below check if the player already has the effect and if they do then apply the effect by making a new statuseffectinstance
         boolean hasPlayerEffect = player.hasStatusEffect(mapStatusEffect.getEffectType());
 
         if(hasCorrectArmorOn(mapArmorMaterial, player) && !hasPlayerEffect) {
-            player.addStatusEffect(new StatusEffectInstance(mapStatusEffect));
+            player.addStatusEffect(new StatusEffectInstance(mapStatusEffect)); //this is very important bc if it adds the effect when u already have then it will never work again so it kind of fixes that idk how but it works
         }
     }
 
@@ -63,7 +64,7 @@ public class ModArmorItem extends ArmorItem {
         return !helmet.isEmpty() && !breastplate.isEmpty()
                 && !leggings.isEmpty() && !boots.isEmpty();
     }
-
+//the 6 lines below are needed or else game will crash when player wears the armor
     private boolean hasCorrectArmorOn(ArmorMaterial material, PlayerEntity player) {
         for (ItemStack armorStack: player.getInventory().armor) {
             if(!(armorStack.getItem() instanceof ArmorItem)) {
